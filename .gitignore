@@ -1,0 +1,12 @@
+.idea
+out
+photos
+target
+voices
+
+src/main/java/functions/Secret.java
+src/main/resources/META-INF/MANIFEST.MF
+
+*.gif
+*.png
+*.mp3

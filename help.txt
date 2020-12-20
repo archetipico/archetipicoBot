@@ -1,0 +1,17 @@
+/help                                                       restituisce la lista dei comandi
+/chatid                                                     restituisce l'ID della chat
+/getmalus                                                   restituisce la lista dei malus
+/id                                                         restituisce l'ID utente
+/msgid                                                      restituisce l'ID del messaggio
+
+
+average (in risposta ad una foto)                           restituisce la media cromatica della foto
+gradient (in risposta ad una foto)                          restituisce il gradiente della foto
+isprime [int]                                               restituisce se il numero è non primo o probabilmente primo
+malus [String]                                              restituisce un malus
+negative (in risposta ad una foto)                          restituisce il negativo della foto
+pixelate [int] (in risposta ad una foto)		            restituisce la foto pixelata con pixel di dimensione [int]
+replace [regex] [String] (in risposta ad un messaggio)      restituisce il messaggio indicato con la [regex] rimpiazzata dalla [String]
+solve [String]                                              restituisce il risultato di un'espressione (N.B. per usare metodi come sqrt, cos, pow,... scrivere 'Math.', esempio 'solve Math.sqrt(2)')
+urban [String]                                              restituisce il significato della parola secondo lo urban dictionary
+weather [String]                                            restituisce il meteo giornaliero, la String può essere una città o uno zip code
